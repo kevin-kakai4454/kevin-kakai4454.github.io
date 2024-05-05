@@ -566,15 +566,16 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding: 12px 0;
-  text-align: center;
+  padding: 0px 0;
+  text-align: ;
+  margin-left: 0px;
 }
 
 .clients img {
   max-width: 45%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
-  padding: 15px 0;
+  padding: px 0;
   filter: grayscale(100);
 }
 
@@ -583,9 +584,9 @@ section {
   transform: scale(1.1);
 }
 
-@media (max-width: 768px) {
+@media (max-width: px) {
   .clients img {
-    max-width: 40%;
+    max-width: 80%;
   }
 }
 
